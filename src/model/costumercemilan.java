@@ -44,4 +44,16 @@ public class costumercemilan extends cemilan {
     public void setJumlahcemilanyangdibeli(String jumlahcemilanyangdibeli) {
         this.jumlahcemilanyangdibeli = jumlahcemilanyangdibeli;
     }
+
+    //Overriding
+
+
+    @Override
+    public boolean create() {
+        return super.create();}
+
+    @Override
+    public boolean create(String jenis) {
+        return super.create(jenis);
+    }
 }
