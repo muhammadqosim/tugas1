@@ -33,7 +33,7 @@ public class cemilan {
         System.out.println("Asal Cemilan :"+asal);
     }
     public boolean create(){
-        String insertCreate = "INSERT INTO CEMILAN VALUES ('"+nama+"','"+warna"','"+buatan+"')";
+        String insertCreate = "INSERT INTO CEMILAN VALUES ('"+nama+"','"+warna  "','"+buatan+"')";
         System.out.println(insertCreate);
         boolean berhasil = true;
         if(berhasil){
@@ -48,5 +48,25 @@ public class cemilan {
         return false;
 
     }
+    //Constructor
+    
+    public cemilan(){
+        System.out.println("=====================================================");
+        nama = "Silahkan Masukkan Nama Cemilan";
+        jenis = "Silahkan Masukkan Jenis Cemilan";
+        warna = "Silahkan Masukkan Warna Cemilan";
+        buatan = "Silahkan Masukkan Buatan Cemilan";
+    }
+    public cemilan(String jenis, String warna){
+        this.nama = nama;
+        this.jenis = jenis;
+        this.warna = warna;
+    }
+    public cemilan(String nama, String model, String jenis){
+        this.nama = nama;
+        this.model = model;
+        this.jenis = jenis;
+    }
+
 
 }

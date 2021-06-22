@@ -1,6 +1,6 @@
 package model;
 
-//SubClass/Child-Classs
+//SubClass/Child-Class
 public class costumercemilan extends cemilan {
     
     public String namacostumercemilan;
