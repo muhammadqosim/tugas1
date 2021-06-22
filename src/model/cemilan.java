@@ -1,7 +1,7 @@
 package model;
 
 import java.sql.SQLOutput;
-
+//SuperClass/Parent-Class
 public class cemilan {
 
     public String nama;
