@@ -17,4 +17,31 @@ public class costumercemilan extends cemilan {
         String jc = "INSERT INTO CEMILAN VALUES ('"+jumlahcemilanyangdibeli+"')";
         System.out.println(jc);
     }
+
+    //Getter And Setter
+
+
+    public String getNamacostumercemilan() {
+        return namacostumercemilan;
+    }
+
+    public void setNamacostumercemilan(String namacostumercemilan) {
+        this.namacostumercemilan = namacostumercemilan;
+    }
+
+    public String getNamarisellercemilan() {
+        return namarisellercemilan;
+    }
+
+    public void setNamarisellercemilan(String namarisellercemilan) {
+        this.namarisellercemilan = namarisellercemilan;
+    }
+
+    public String getJumlahcemilanyangdibeli() {
+        return jumlahcemilanyangdibeli;
+    }
+
+    public void setJumlahcemilanyangdibeli(String jumlahcemilanyangdibeli) {
+        this.jumlahcemilanyangdibeli = jumlahcemilanyangdibeli;
+    }
 }
